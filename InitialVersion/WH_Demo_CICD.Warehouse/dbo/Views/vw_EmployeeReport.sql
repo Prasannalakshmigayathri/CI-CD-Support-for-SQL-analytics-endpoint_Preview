@@ -1,7 +1,8 @@
--- Auto Generated (Do not modify) AF0F8D6E7CE3D584DDB1BD93E6A47E4375916E9E28C926272ADEDEA104A4A627
+-- Auto Generated (Do not modify) 6A7D132802D43B43EF8F59F39DCEBB9B11014CA23CAD75269FC2D018DEDD9A13
 CREATE VIEW dbo.vw_EmployeeReport
 AS
 SELECT
     EmployeeName,
-    Salary
+    Salary,
+    Salary * 12 AS AnnualSalary
 FROM dbo.EmployeeSalary;
